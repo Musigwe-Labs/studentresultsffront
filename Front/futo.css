@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: Arial;
-    
+    text-decoration: none;
+    outline: none;
     
 }
 
@@ -151,9 +152,17 @@ main{
     margin-bottom: 6%;
 }
 
-.forget_password{
+.downpart2 a{
+    font-size: 0.6rem;
+    padding: 2px;
+    font-weight: 400;
+    margin-bottom: 6%;
+}
+
+.downpart a{
     color: red;
     font-size: 0.7rem;
+    font-weight: 600;
     margin-bottom: 1.5%;
 }
 

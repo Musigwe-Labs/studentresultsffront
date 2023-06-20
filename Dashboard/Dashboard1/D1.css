@@ -1,9 +1,125 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Arial;
     text-decoration: none;
     outline: none;
-    
+}
+
+body {
+    background: rgb(231, 231, 231);
+}
+
+nav {
+    padding: 45px 5px;
+    /* display: grid; */
+    height: 100vh;
+    position: absolute;
+    width: 30%;
+    background: rgb(64, 112, 1);
+    box-shadow: 2px 2px 5px 2px rgba(27, 27, 27, 0.644);
+}
+
+.userprofile {
+    color: white;
+    text-align: center;
+}
+
+.userprofile .fa {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+.userprofile .students_name {
+    font-size: 0.6rem;
+    padding-bottom: 4px;
+}
+
+.userprofile .department {
+    font-size: 0.45rem;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.menu_text {
+    color: white;
+    font-size: 0.59rem;
+    padding-left: 17px;
+    /* box-shadow: 2px 3px 5px 2px grey; */
+}
+
+.Dashboard {
+    margin-top: 5%;
+    color: white;
+    display: flex;
+    /* padding: 0 20px; */
+    font-size: 0.6rem;
+    background: rgb(34, 172, 7);
+    width: max-content;
+    height: 30px;
+    padding: 2px 5px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 20%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px 2px rgba(27, 27, 27, 0.322);
+    margin-bottom: 5%;
+}
+
+.Dashboard_txt {
+    padding-left: 5px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+.Profile,
+.Message,
+.Notification,
+.Student_result {
+    margin-top: 5%;
+    color: white;
+    display: flex;
+    /* padding: 0 20px; */
+    font-size: 0.6rem;
+    width: max-content;
+    height: 30px;
+    padding: 2px 5px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 20%;
+    border-radius: 10px;
+    /* box-shadow: 2px 4px 5px 2px rgba(27, 27, 27, 0.322); */
+}
+
+.Profile_txt,
+.Message_txt,
+.Notification_txt,
+.Student_result_txt {
+    padding-left: 5px;
+    font-weight: 400;
+}
+
+.Profile .fa {
+    font-size: 1rem;
+    color: black;
+    width: 18px;
+}
+
+.Message .fa {
+    font-size: 1rem;
+    color: black;
+    width: 18px;
+}
+
+.Notification .fa {
+    font-size: 1rem;
+    color: black;
+    width: 18px;
+}
+
+.Student_result .fa {
+    font-size: 1rem;
+    color: black;
+    width: 18px;
 }

@@ -16,6 +16,8 @@ body {
 nav {
     padding: 50px 20px;
     /* display: grid; */
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 18%;
     background: rgb(64, 112, 1);
@@ -23,6 +25,8 @@ nav {
 }
 
 .userprofile {
+    align-items: center;
+    justify-content: center;
     color: white;
     text-align: center;
 }
@@ -33,19 +37,19 @@ nav {
 }
 
 .userprofile .students_name {
-    font-size: 0.6rem;
-    padding-bottom: 4px;
+    font-size: 0.8rem;
+    padding-bottom: 8px;
 }
 
 .userprofile .department {
-    font-size: 0.45rem;
+    font-size: 0.7rem;
     font-weight: 300;
     padding-bottom: 20px;
 }
 
 .menu_text {
     color: white;
-    font-size: 0.59rem;
+    font-size: 0.8rem;
     padding-left: 17px;
     /* box-shadow: 2px 3px 5px 2px grey; */
 }
@@ -55,7 +59,7 @@ nav {
     color: white;
     display: flex;
     /* padding: 0 20px; */
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     /* background: rgb(34, 172, 7); */
     width: max-content;
     height: 30px;
@@ -83,7 +87,7 @@ nav {
     color: white;
     display: flex;
     /* padding: 0 20px; */
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     width: max-content;
     height: 30px;
     padding: 2px 5px;
@@ -128,7 +132,7 @@ nav {
 }
 
 .Student_result {
-    margin-bottom: 300px;
+    margin-bottom: 200px;
 }
 
 .Logout {

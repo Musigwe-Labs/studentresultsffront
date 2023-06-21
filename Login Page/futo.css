@@ -1,34 +1,29 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Arial;
     text-decoration: none;
     outline: none;
-    
 }
 
-
-body{
-
+body {
     background: rgb(231, 231, 231);
 }
 
-nav{
-    background: rgb(12, 54, 12);
-    height: 100px;
-    
+nav {
     padding: 5px 0px;
     /* justify-content: center; */
     align-content: center;
     align-items: center;
     /* padding: 440px; */
-    display:flex;
+    display: flex;
     width: 100%;
     margin-bottom: 3%;
+    background-color: rgb(12, 54, 12);
 }
 
-.logo1{
+.logo1 {
     margin-left: 10%;
     margin-top: 2%;
     padding: 5px;
@@ -36,11 +31,11 @@ nav{
     height: 60px;
     justify-content: center;
     align-items: center;
-    position:relative;
+    position: relative;
     display: flex;
 }
 
-.logo h3{
+.logo h3 {
     padding-top: 30px;
     color: rgb(255, 255, 255);
     display: flex;
@@ -48,7 +43,7 @@ nav{
     font-size: 0.8rem;
 }
 
-main{
+main {
     justify-content: center;
     width: 100%;
     align-items: center;
@@ -56,10 +51,7 @@ main{
     justify-content: center;
 }
 
-
-
-.main_box{
-
+.main_box {
     background-color: white;
     justify-self: center;
     margin: auto;
@@ -71,44 +63,40 @@ main{
     align-items: center;
     /* position:relative; */
     /* display: flex; */
-
-
 }
 
-
-.main h2{
-
+.main h2 {
     font-size: 0.9rem;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.fa{
+.fa {
     background-color: rgb(12, 54, 12);
     padding: 5px;
     border-radius: 50px;
     font-size: 1.8rem;
     margin-bottom: 10px;
- 
 }
 
-.login{
+.login {
     text-align: center;
     justify-content: center;
 }
 
-.login h4{
+.login h4 {
     font-size: 0.7rem;
     margin-bottom: 2%;
     font-weight: 550;
 }
 
-.forms{
+.forms {
     text-align: left;
     display: grid;
 }
 
-.forms input, .username .password{
+.forms input,
+.username .password {
     height: 35px;
     margin-bottom: 10px;
     border: none;
@@ -117,12 +105,11 @@ main{
     background-color: rgb(231, 231, 231);
 }
 
-.forms input:placeholder-shown{
+.forms input:placeholder-shown {
     font-size: 0.7rem;
 }
 
-
-.forms button{
+.forms button {
     height: 35px;
     border: none;
     background-color: rgb(12, 54, 12);
@@ -132,41 +119,38 @@ main{
     margin-bottom: 5%;
 }
 
-.downpart{
+.downpart {
     text-align: left;
     font-weight: 400;
-  
     font-size: 0.6rem;
 }
 
-.downpart2{
+.downpart2 {
     display: flex;
 }
 
-
-.downpart2 h6{
+.downpart2 h6 {
     font-size: 0.6rem;
     padding: 2px;
     font-weight: 400;
     margin-bottom: 6%;
 }
 
-.downpart2 a{
+.downpart2 a {
     font-size: 0.6rem;
     padding: 2px;
     font-weight: 400;
     margin-bottom: 6%;
 }
 
-.downpart a{
+.downpart a {
     color: red;
     font-size: 0.7rem;
     font-weight: 600;
     margin-bottom: 1.5%;
 }
 
-.downpart h4{
+.downpart h4 {
     text-align: center;
     font-weight: 500;
-    
 }

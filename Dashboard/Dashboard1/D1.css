@@ -56,7 +56,7 @@ nav {
     display: flex;
     /* padding: 0 20px; */
     font-size: 0.6rem;
-    background: rgb(34, 172, 7);
+    /* background: rgb(34, 172, 7); */
     width: max-content;
     height: 30px;
     padding: 2px 5px;
@@ -64,7 +64,7 @@ nav {
     align-items: center;
     margin-left: 20%;
     border-radius: 10px;
-    box-shadow: 2px 4px 5px 2px rgba(27, 27, 27, 0.322);
+    /* box-shadow: 2px 4px 5px 2px rgba(27, 27, 27, 0.322); */
     margin-bottom: 5%;
 }
 
@@ -123,4 +123,52 @@ nav {
     font-size: 1rem;
     color: black;
     width: 18px;
+}
+
+
+/* .Profile,
+.Dashboard,
+.Student_result,
+.Notification,
+.Message:active {
+    background-color: red;
+}
+
+.Profile,
+.Dashboard,
+.Student_result,
+.Notification,
+.Message:focus {
+    background-color: none;
+} */
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    width: 1000px;
+    margin-bottom: 4%;
+    ;
+}
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: max-content
+}
+
+button:active {
+    background-color: red;
+    width: max-content;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 3s;
+}
+
+button:focus {
+    background: rgb(34, 172, 7);
+    width: 100px;
+    transition: all 1s;
 }
